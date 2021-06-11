@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Aboutcontest">
+
+    <ImageView
+        android:id="@+id/imageViewclick5"
+        android:layout_width="250dp"
+        android:layout_height="256dp"
+        android:layout_marginStart="80dp"
+        android:layout_marginLeft="80dp"
+        android:layout_marginTop="49dp"
+        android:layout_marginEnd="81dp"
+        android:layout_marginRight="81dp"
+        android:layout_marginBottom="426dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/cutecartoohazelnut" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideline8"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintGuide_begin="20dp" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideline9"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_begin="20dp" />
+
+    <EditText
+        android:id="@+id/aboutcontestTextTextMultiLine2"
+        android:layout_width="331dp"
+        android:layout_height="381dp"
+        android:layout_marginStart="40dp"
+        android:layout_marginLeft="40dp"
+        android:layout_marginTop="316dp"
+        android:layout_marginEnd="40dp"
+        android:layout_marginRight="40dp"
+        android:layout_marginBottom="34dp"
+        android:ems="10"
+        android:fontFamily="@font/bilbo_swash_caps"
+        android:gravity="start|top"
+        android:inputType="textMultiLine"
+        android:text="Дорогие друзья, нашему банку исполнился 1 год!) В честь этого Walnut Chest разыгрывает 6 автомобилей марки Mazda 6 для своих клиентов. Вы получаете свое уникальное число, а мы разыгрываем призы и называем 6 случайных чисел, а значит 6 победителей.Все что Вам нужно: быть клиентом нашего банка и заполнить форму в приложении. Окончание конкурса 11 января 2022 года. Все победители будут оповещены по электронной почте в 18:00 по МСК 11.01.22  Спасибо, что вы с нами!"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+</androidx.constraintlayout.widget.ConstraintLayout>

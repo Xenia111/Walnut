@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivitymain">
+
+    <ImageView
+        android:id="@+id/imageViewgreenclick2"
+        android:layout_width="1089dp"
+        android:layout_height="459dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/greeeeen" />
+
+    <ImageView
+        android:id="@+id/imageViewclick2"
+        android:layout_width="250dp"
+        android:layout_height="256dp"
+        android:layout_marginStart="417dp"
+        android:layout_marginLeft="417dp"
+        android:layout_marginTop="39dp"
+        android:layout_marginEnd="64dp"
+        android:layout_marginRight="64dp"
+        android:layout_marginBottom="116dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/cutecartoohazelnut" />
+
+    <TextView
+        android:id="@+id/textViewthankyou"
+        android:layout_width="285dp"
+        android:layout_height="51dp"
+        android:layout_marginStart="398dp"
+        android:layout_marginLeft="398dp"
+        android:layout_marginTop="311dp"
+        android:layout_marginEnd="48dp"
+        android:layout_marginRight="48dp"
+        android:layout_marginBottom="49dp"
+        android:fontFamily="@font/bilbo_swash_caps"
+        android:text="Thank you for being with us!"
+        android:textColor="#D88B6C"
+        android:textSize="34sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/buttonaboutprize"
+        android:layout_width="250dp"
+        android:layout_height="60dp"
+        android:layout_marginStart="53dp"
+        android:layout_marginLeft="53dp"
+        android:layout_marginTop="137dp"
+        android:layout_marginEnd="428dp"
+        android:layout_marginRight="428dp"
+        android:layout_marginBottom="214dp"
+        android:text="О конкурсе"
+        app:backgroundTint="#FA9158"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/buttonwantprize"
+        android:layout_width="250dp"
+        android:layout_height="60dp"
+        android:layout_marginStart="53dp"
+        android:layout_marginLeft="53dp"
+        android:layout_marginTop="62dp"
+        android:layout_marginEnd="428dp"
+        android:layout_marginRight="428dp"
+        android:layout_marginBottom="289dp"
+        android:text="Хочу участвовать"
+        app:backgroundTint="#FA9158"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/buttonexit"
+        android:layout_width="250dp"
+        android:layout_height="60dp"
+        android:layout_marginStart="53dp"
+        android:layout_marginLeft="53dp"
+        android:layout_marginTop="292dp"
+        android:layout_marginEnd="428dp"
+        android:layout_marginRight="428dp"
+        android:layout_marginBottom="59dp"
+        android:text="Выход"
+        app:backgroundTint="#FA9158"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/buttonaboutus"
+        android:layout_width="250dp"
+        android:layout_height="60dp"
+        android:layout_marginStart="53dp"
+        android:layout_marginLeft="53dp"
+        android:layout_marginTop="216dp"
+        android:layout_marginEnd="428dp"
+        android:layout_marginRight="428dp"
+        android:layout_marginBottom="135dp"
+        android:text="О нас"
+        app:backgroundTint="#FA9158"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideline4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintGuide_begin="20dp" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideline5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_begin="20dp" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
